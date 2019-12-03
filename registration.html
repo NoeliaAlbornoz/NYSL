@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel= "stylesheet" href= "styles/nysl.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <div class= "presentacion">
+            <h1>Northside Youth Soccer League</h1>
+        </div> 
+    </header>
+
+    <section>
+        <div>
+            <h2>Registration</h2>
+            <img class= "icono" src= "imagenes/nysl_logo.png" alt= "logo" width=100px height=100px>
+        </div>
+    </section>
+
+    <div class= "contenedor-cuerpo">
+        <nav>
+            <div class= "menu">
+                <ul>
+                    <li><a href= "index.html">Home</a></li>
+                    <li><a href= "about.html">About NSYL</a></li>
+                    <li><a href= "contact.html">Contact</a></li>
+                    <li><a href= "list.html">Rules/Policies</a></li>
+                    <li><a href= "tabla.html">Game Info</a></li>
+                    <li class= "registration"><a href= "form.html">Registration</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div class= "contenedor-form">
+                <h4 class= "textForm">Registration Form</h4><br>
+                <form action="show_data.html" method="GET">
+                    <fieldset>
+                        <legend><strong>Personal Information</strong></legend>
+                        <label>First Name</label><input type="text" name="name" required>
+                        <label>Last Name</label><input type="text" name="last-name" required>
+                        <label>Street Address<textarea name="address" required></textarea></label><br>
+                        <label class= "modified">City<input type="text" name="city" required></label>
+                        <label class= "modified">Zip Code<input type="number" name="zip-code" required></label>
+                        <label>Birthday:<input type="date" placeholder="Birth Date(mm/dd/yyyy):" name="birthday" required></label><br>
+                        <label>Gender:<input type="radio" name="gender" value="female">Female</label>
+                        <label><input type="radio" name="gender" value="male">Male</label><br>
+                        <label>Grade:<input type="radio" name="grade">Pre-school</label>
+                        <label><input type="radio" name="grade">1st</label>
+                        <label><input type="radio" name="grade">2nd</label>
+                        <label><input type="radio" name="grade">3rd</label>
+                        <label><input type="radio" name="grade">4th</label>
+                        <label><input type="radio" name="grade">5th</label>
+                    </fieldset><br>
+                    <fieldset>
+                        <legend><strong>Which elementary school do you live near?</strong></legend>
+                        <label><input type="checkbox" value="checkbox1">AJ Katzenmaier</label>
+                        <label><input type="checkbox" value="checkbox2">Greenbay</label>
+                        <label><input type="checkbox" value="checkbox3">Marjorie P Hart</label>
+                        <label><input type="checkbox" value="checkbox4">North Elementary</label><br>
+                        <label><input type="checkbox" value="checkbox5">South Elementary</label>
+                        <label><input type="checkbox" value="checkbox6">Howard A Yeager</label>
+                    </fieldset><br>
+                    <fieldset>
+                        <legend><strong>What position(s) do you normally play? (check all that apply)</strong></legend>
+                        <label><input type="checkbox" value="checkbox7">Forward</label>
+                        <label><input type="checkbox" value="checkbox8">Midfield</label>
+                        <label><input type="checkbox" value="checkbox9">Defense</label>
+                        <label><input type="checkbox" value="checkbox10">Goalkeeper</label>
+                    </fieldset><br>
+                    <fieldset>
+                        <legend><strong>Uniform Size:</strong></legend>
+                        <select name="size">
+                            <option value= "youth small" selected>Youth Small</option>
+                            <option value= "youth medium">Youth Medium</option>
+                            <option value= "youth large">Youth Large</option>
+                            <option value= "small">Small</option>
+                            <option value= "medium">Medium</option>
+                            <option value= "large">Large</option>
+                            <option value= "extra large">Extra Large</option>
+                        </select>
+                    </fieldset><br>
+                    <p>
+                        <strong>Permission to Play</strong><br>
+                        I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of
+                        the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with 
+                        soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities,
+                        I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel 
+                        and volunteers,including the facilities used for practices and games, against any claim by or on behalf of 
+                        the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from 
+                        NYSL sponsored activities,which transportation
+                        By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge
+                        that I have read the cancellation policy and agree to its terms.
+                    </p>
+                    <input type="text" placeholder="Parent/Guardian Signature:" name="signature" required>
+                    <label>Date:<input type="date" placeholder="Date:" name="date" required></label>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

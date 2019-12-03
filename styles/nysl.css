@@ -1,0 +1,191 @@
+body{
+    font-family: 'Courier New', Courier;
+    font-size: 20px;
+}
+
+header{
+    color:white;
+    -webkit-text-stroke: 2px black;
+    font-size: 25px;
+    margin-top: -2%;
+}
+
+.presentacion{
+    position: relative;
+    background-image: url(../imagenes/design1_image1.jpg);
+    height: 490px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icono{
+    position: absolute;
+    top: 80%;
+    right: 5%;
+}
+
+h2{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+.contenedor-cuerpo{
+    display: flex;
+}
+
+.home, .about, .contact, .list, .tabla, .registration{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.menu ul li{
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+.menu ul li a{
+    color: #3498DB;
+    text-decoration: none;
+    line-height: 250%;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+a:active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.calendar li{
+    list-style-type: none;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: bold;
+    margin-left: -2%;
+}
+
+.cuerpo{
+    text-indent: 5%;
+}
+
+h3{
+    font-size: 140%;
+    font-weight: bolder;
+    color: #00FF00;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.titulos-rules{
+    margin-left: 16%;
+    display: block;
+ }
+
+.center{
+    margin-left: 4.5%;
+}
+
+.right{
+    margin-left: -15%;
+    font-size: 90%;
+}
+
+.primera-lista{
+    list-style-type: square;
+}
+
+.lista-alfabetica{
+    list-style-type: lower-latin;
+}
+
+.lista-anidada{
+    list-style-type: circle; 
+}
+
+.titulos-info{
+   margin-left: 20%;
+   display: block;
+}
+
+.mapas a, h5{
+    font-size: 90%;
+    color: #00FF00;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.titulos-info p{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+table{
+    width: 100%;
+}
+
+td,tr{
+    text-align: center;
+    width:200px;
+    padding-right:3px;
+}
+
+.filas{
+   height: 50px;
+}
+
+.alingLeft{
+    text-align: left;
+}
+
+.textForm{
+    margin-left: 23%;
+}
+
+
+input[type="text"], input[type="number"] {
+    width: 33%;
+    margin-bottom: 15px;
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #5cb8ff;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  .modified input[type="text"], input[type="number"] {
+    width: 25%;
+  }
+  
+  textarea {
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #5cb8ff;
+    font-size: 17px;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  input[type="checkbox"]{
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    width: 166px;
+    margin: auto;
+  }
+
+  .map{
+    width: 800px;
+    height: 430px;
+    border: 6px solid #00FF00;
+  }
+
+  .margin-map{
+      margin-top: 150px;
+  }
